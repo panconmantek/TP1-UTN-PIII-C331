@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Bodoni Moda", serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h2 {
+  font-size: 2.7em;
+  text-align: center;
+  margin: 40px 0;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1.25em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #1c1c1c;
+  color: #fffff0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .logo {
+  margin: 0;
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-size: 1.9em;
+  color: #a50000;
+  letter-spacing: 0.2rem;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+header nav a {
+  font-size: 1em;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fffff0;
+  margin: 0 10px;
+}
+
+header nav a:hover {
+  color: #a50000;
+}
+
+.redHighlight {
+  color: #a50000;
+}
+
+#section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fffff0;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../assets/nosferatu.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#section2 {
+  padding: 50px 0;
+}
+
+#section3 {
+  padding: 50px 0;
+}
+
+.blogs-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Reduced min width for better mobile layout */
+  gap: 20px; /* Gap between grid items */
+  padding: 20px; /* Added padding to avoid touching edges */
+}
+
+.card {
+  position: relative;
+  background-color: #1c1c1c;
+  transition: opacity 0.5s ease;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  opacity: 0.7;
+}
+
+.card:hover p {
+  opacity: 1;
+}
+
+#section4 {
+  padding: 50px 0;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 0.5em;
+}
+
+@media (min-width: 720px) {
+  header .container {
+    flex-direction: row;
+  }
+}
