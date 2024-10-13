@@ -10,8 +10,8 @@ html {
 body {
   margin: 0;
   font-family: "Playfair Display", serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #eaeaea;
+  color: #222;
   display: flex;
   flex-direction: column;
 }
@@ -39,30 +39,30 @@ ul {
 }
 
 header {
-  color: #fffff0;
+  color: #f0f0f0;
 }
 
 header .logo {
   margin: 0;
   font-family: "Creepster", system-ui;
   font-weight: 400;
-  color: #a50000 !important;
+  color: #8b0000 !important;
   letter-spacing: 0.1rem;
 }
 
 header nav a {
   text-decoration: none;
   font-weight: bold;
-  color: #fffff0 !important;
+  color: #f0f0f0 !important;
 }
 
 header nav a:hover {
-  color: #a50000 !important;
+  color: #8b0000 !important;
 }
 
 footer {
-  background-color: #1c1c1c;
-  color: #fffff0;
+  background-color: #151515;
+  color: #f0f0f0;
   height: 150px;
   width: 100%;
   display: flex;
@@ -70,18 +70,19 @@ footer {
   justify-content: center;
   align-items: flex-end;
   font-size: 0.7em;
+  font-weight: lighter;
 }
 
 .navbar {
-  background-color: #1c1c1c !important;
+  background-color: #151515 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fffff0;
+  color: #f0f0f0;
 }
 
 .navbar-toggler {
-  background-color: #a50000;
+  background-color: #8b0000;
 }
 
 .navbar-toggler-icon {
@@ -92,13 +93,13 @@ footer {
 
 .redHighlightCreepster {
   font-family: "Creepster", system-ui;
-  color: #a50000;
+  color: #8b0000;
   text-align: center;
   font-weight: 400;
 }
 
 .redHighlight {
-  color: #a50000;
+  color: #8b0000;
 }
 
 .fa {

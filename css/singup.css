@@ -14,8 +14,9 @@ body {
 }
 
 h2 {
+  font-family: "Creepster", system-ui;
   font-size: 2.5em;
-  color: #a50000;
+  color: #8b0000;
 }
 
 label {
@@ -23,12 +24,12 @@ label {
 }
 
 .btn-danger {
-  background-color: #a50000;
+  background-color: #8b0000;
   border: none;
   width: 100%;
   padding: 10px;
 }
 
 .btn-danger:hover {
-  background-color: #900000;
+  background-color: #7a0000;
 }
