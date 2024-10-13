@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Bodoni Moda", serif;
+  font-family: "Playfair Display", serif;
   background-color: #f4f4f4;
   color: #333;
   display: flex;
@@ -26,7 +26,6 @@ h3 {
   margin: 20px 0;
 }
 
-/* Paragraphs */
 p {
   font-size: 1.25em;
   font-weight: 900;
@@ -91,19 +90,17 @@ footer {
   height: 1em;
 }
 
-/* Highlight Styles */
 .redHighlightCreepster {
   font-family: "Creepster", system-ui;
   color: #a50000;
+  text-align: center;
   font-weight: 400;
-  padding: 0px 10px;
 }
 
 .redHighlight {
   color: #a50000;
 }
 
-/* Font Awesome Styles */
 .fa {
   font-size: 24px;
   width: 50px;

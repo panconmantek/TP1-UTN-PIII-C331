@@ -20,6 +20,10 @@
   padding: 50px 0;
 }
 
+#section2 p {
+  font-weight: 600;
+}
+
 #section2 .container {
   text-align: center;
 }
@@ -48,7 +52,6 @@
   padding: 20px;
 }
 
-/* Card Styles */
 .card {
   position: relative;
   background-color: #1c1c1c;
