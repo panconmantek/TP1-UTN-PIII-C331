@@ -9,7 +9,8 @@ html {
 
 body {
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   background-color: #eaeaea;
   color: #333;
   display: flex;
