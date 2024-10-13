@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#signinForm {
+  padding: 30px;
+  margin: 20px auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #a50000;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-danger {
+  background-color: #a50000;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.btn-danger:hover {
+  background-color: #900000;
+}
