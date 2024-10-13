@@ -13,7 +13,7 @@ body {
   background-color: #f4f4f4;
   color: #333;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 h2 {
@@ -26,6 +26,7 @@ h3 {
   margin: 20px 0;
 }
 
+/* Paragraphs */
 p {
   font-size: 1.25em;
   font-weight: 900;
@@ -90,6 +91,7 @@ footer {
   height: 1em;
 }
 
+/* Highlight Styles */
 .redHighlightCreepster {
   font-family: "Creepster", system-ui;
   color: #a50000;
@@ -101,6 +103,7 @@ footer {
   color: #a50000;
 }
 
+/* Font Awesome Styles */
 .fa {
   font-size: 24px;
   width: 50px;
@@ -158,6 +161,6 @@ footer {
   }
 
   footer {
-    margin-top: auto; 
+    margin-top: auto;
   }
 }
