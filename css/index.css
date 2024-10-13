@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Bodoni Moda", serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column; 
+}
+
+h2 {
+  font-size: 2.7em;
+  margin: 40px 0;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1.25em;
+  font-weight: 900;
+  margin: 0 0 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  color: #fffff0;
+}
+
+header .logo {
+  margin: 0;
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  color: #a50000 !important;
+  letter-spacing: 0.1rem;
+}
+
+header nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fffff0 !important;
+}
+
+header nav a:hover {
+  color: #a50000 !important;
+}
+
+footer {
+  background-color: #1c1c1c;
+  color: #fffff0;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 0.7em;
+}
+
+.navbar {
+  background-color: #1c1c1c !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fffff0;
+}
+
+.navbar-toggler {
+  background-color: #a50000;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+.redHighlightCreepster {
+  font-family: "Creepster", system-ui;
+  color: #a50000;
+  font-weight: 400;
+  padding: 0px 10px;
+}
+
+.redHighlight {
+  color: #a50000;
+}
+
+.fa {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  margin: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: opacity 0.3s;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 720px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+  }
+}
