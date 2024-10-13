@@ -7,6 +7,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link
@@ -18,20 +24,49 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
     <title>Echoes of Terror</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <p class="logo">Echoes<br />of terror</p>
-        <nav>
-          <a href="./pages/signIn.html" class="nav-link">Sing in</a>
-          <a href="./pages/signUp.html" class="nav-link">Sing up</a>
-          <!-- <a href="#section2" class="nav-link">About us</a>
-          <a href="#section3" class="nav-link">Highlights</a>
-          <a href="#section4" class="nav-link">Contact</a> -->
-        </nav>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand logo" href="#">Echoes of Terror</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#headerMenu"
+          aria-controls="headerMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="headerMenu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/signIn.html">Sing in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/signUp.html">Sing up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <section id="section1">
@@ -50,8 +85,8 @@
             We are a twisted collective of horror enthusiasts, driven by the
             thrill of the eerie and unsettling.
             <span class="redHighlight">Our mission?</span> To gather the most
-            spine-chilling content the world has to offer. Planning a movie or
-            game night to send shivers down your friends’ spines? Dive into our
+            spine-chilling content the world has to offer. Planning a movie
+            night to send shivers down your friends’ spines? Dive into our
             handpicked recommendations—we promise an archive of haunting tales
             that will linger in your mind long after the night ends.
           </p>
@@ -65,46 +100,79 @@
         <div class="blogs-container">
           <div class="card">
             <img src="./assets/movies/28daysLater.jpg" alt="28 Days Later" />
-            <p>A virus ravages the UK, leaving survivors to navigate a desolate, dangerous world</p>
+            <p>
+              A virus ravages the UK, leaving survivors to navigate a desolate,
+              dangerous world
+            </p>
           </div>
           <div class="card">
             <img src="./assets/movies/kairo.jpg" alt="Kairo" />
-            <p>A terrifying exploration of loneliness and the internet, where ghosts invade both the virtual and real worlds</p>
+            <p>
+              A terrifying exploration of loneliness and the internet, where
+              ghosts invade both the virtual and real worlds
+            </p>
           </div>
           <div class="card">
             <img
               src="./assets/movies/lateNightWithTheDevil.jpg"
               alt="Late Night With The Devil"
             />
-            <p>A live TV broadcast in the 1970s takes a dark turn as supernatural events unfold on air</p>
+            <p>
+              A live TV broadcast in the 1970s takes a dark turn as supernatural
+              events unfold on air
+            </p>
           </div>
           <div class="card">
             <img src="./assets/movies/terrified.jpg" alt="Terrified" />
-            <p>Paranormal horrors plague a suburban neighborhood, exposing the fear within familiar spaces</p>
+            <p>
+              Paranormal horrors plague a suburban neighborhood, exposing the
+              fear within familiar spaces
+            </p>
           </div>
           <div class="card">
             <img src="./assets/movies/longlegs.jpg" alt="Longlegs" />
-            <p>A detective investigates unsettling crimes that hint at something sinister lurking beyond reality</p>
+            <p>
+              A detective investigates unsettling crimes that hint at something
+              sinister lurking beyond reality
+            </p>
           </div>
           <div class="card">
             <img src="./assets/movies/midsommar.jpg" alt="Midsommar" />
-            <p>A grieving woman visits a remote Swedish festival, only to discover a disturbing pagan ritual</p>
+            <p>
+              A grieving woman visits a remote Swedish festival, only to
+              discover a disturbing pagan ritual
+            </p>
           </div>
           <div class="card">
             <img src="./assets/movies/noroi.jpg" alt="Noroi" />
-            <p>A journalist’s investigation into paranormal phenomena spirals into a chilling found-footage nightmare</p>
+            <p>
+              A journalist’s investigation into paranormal phenomena spirals
+              into a chilling found-footage nightmare
+            </p>
           </div>
           <div class="card">
-            <img src="./assets/movies/whenEvilLurks.jpg" alt="When Evil Lurks" />
-            <p>Two brothers encounter an ancient evil in a remote town, battling to prevent its spread</p>
+            <img
+              src="./assets/movies/whenEvilLurks.jpg"
+              alt="When Evil Lurks"
+            />
+            <p>
+              Two brothers encounter an ancient evil in a remote town, battling
+              to prevent its spread
+            </p>
           </div>
           <div class="card">
             <img src="./assets/movies/theSubstance.jpg" alt="The Substance" />
-            <p>A mysterious chemical transforms lives, blurring the line between science and horror</p>
+            <p>
+              A mysterious chemical transforms lives, blurring the line between
+              science and horror
+            </p>
           </div>
           <div class="card">
             <img src="./assets/movies/theWitch.jpg" alt="The VVitch" />
-            <p>A Puritan family in 1630s New England faces a creeping malevolence in the wilderness</p>
+            <p>
+              A Puritan family in 1630s New England faces a creeping malevolence
+              in the wilderness
+            </p>
           </div>
         </div>
       </div>
@@ -115,9 +183,11 @@
         <div class="follow">
           <h2>Dare to follow us</h2>
         </div>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-youtube"></a>
+        <div class="socialMedia">
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
       </div>
     </section>
 

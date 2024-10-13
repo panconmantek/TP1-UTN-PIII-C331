@@ -42,45 +42,43 @@ ul {
 }
 
 header {
-  background-color: #1c1c1c;
   color: #fffff0;
-  padding: 20px 0;
-  text-align: center;
 }
 
 header .logo {
   margin: 0;
   font-family: "Creepster", system-ui;
   font-weight: 400;
-  font-size: 3em;
-  color: #a50000;
-  letter-spacing: 0.2rem;
-}
-
-header .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-header nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px 0;
+  color: #a50000 !important;
+  letter-spacing: 0.1rem;
 }
 
 header nav a {
-  font-size: 1em;
-  padding: 5px 12px;
   text-decoration: none;
   font-weight: bold;
-  color: #fffff0;
-  margin: 0 10px;
+  color: #fffff0 !important;
 }
 
 header nav a:hover {
-  color: #a50000;
+  color: #a50000 !important;
+}
+
+.navbar {
+  background-color: #1c1c1c !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fffff0;
+}
+
+.navbar-toggler {
+  background-color: #a50000;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
 }
 
 .redHighlightCreepster {
@@ -131,7 +129,7 @@ header nav a:hover {
   padding: 50px 0;
 }
 
-#section3 p{
+#section3 p {
   font-size: 0.8em;
   font-weight: lighter;
   color: white;
@@ -150,6 +148,7 @@ header nav a:hover {
   transition: opacity 0.5s ease;
   overflow: hidden;
   border-radius: 8px;
+  border: none;
 }
 
 .card img {
@@ -195,6 +194,10 @@ header nav a:hover {
   font-size: 2rem;
 }
 
+#section4 .follow {
+  border-radius: 5px;
+}
+
 .fa {
   font-size: 24px;
   width: 50px;
@@ -230,53 +233,30 @@ header nav a:hover {
 footer {
   background-color: #1c1c1c;
   color: #fffff0;
-  font-weight: lighter;
   height: 150px;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: flex-end;
   font-size: 0.7em;
 }
 
 @media (min-width: 720px) {
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    z-index: 1000;
-  }
-
+  html,
   body {
-    padding-top: 80px; /* Adjust padding to prevent content from being hidden behind the fixed header */
-  }
-
-  header .logo {
-    font-size: 1.6em;
-    line-height: 1.2;
     margin: 0;
-    text-align: center;
+    padding: 0;
+    overflow-x: hidden;
   }
 
-  header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 50px;
-    margin: 0;
+  .navbar {
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000; 
   }
 
-  header nav a {
-    font-size: 0.8em;
-    padding: 0 15px;
-    line-height: 50px;
-  }
-
-  header .container {
-    flex-direction: row;
-    justify-content: space-between;
-    height: 50px;
+  .navbar-nav {
+    margin-left: auto; 
   }
 
   #section1 h2 {
@@ -307,22 +287,29 @@ footer {
     height: 500px;
   }
 
-  #section4 {
+  #section4 h2 {
+    padding: 0px 0px;
+    font-size: 2rem;
+    margin: 15px 0px;
+  }
+
+  #section4 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 50px 0;
+    align-items: center;
+    align-content: center;
   }
 
   #section4 .follow {
-    width: fit-content;
+    width: 100%;
+    height: fit-content;
     background-color: #1c1c1c;
     color: #fffff0;
   }
 
-  #section4 h2 {
-    padding: 0px 20px;
-    font-size: 2rem;
+  #section4 .socialMedia {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
   }
 }
