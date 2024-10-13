@@ -21,8 +21,14 @@ h2 {
 }
 
 label {
-  font-weight: bold;
   margin-top: 10px;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  padding: 0.5rem 0;
+  text-transform: none;
 }
 
 input {

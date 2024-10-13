@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: "Playfair Display", serif;
   background-color: #eaeaea;
-  color: #222;
+  color: #333;
   display: flex;
   flex-direction: column;
 }
