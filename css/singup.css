@@ -28,7 +28,7 @@ label {
   text-transform: none;
 }
 
-.form-check{
+.form-check {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,4 +44,21 @@ label {
 
 .btn-danger:hover {
   background-color: #7a0000;
+}
+
+@media (min-width: 720px) {
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  h2 {
+    grid-column: 1 / -1;
+  }
+
+  button {
+    grid-column: 1 / -1;
+  }
 }
