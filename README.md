@@ -44,7 +44,12 @@ Usando la estructura estandar de un documento html, deberá crear un conjunto de
 Además, agregue la siguiente información a su archivo `README`:
 
 - ¿Hay alguna mejora que pueda hacer en su envío?
+1. Optimización: Podría limpiar los estilos redundantes o reutilizar más porciones de codigo.
+2. Mejoras en el diseño responsive: Aunque la web ya es responsive, haría ajustes adicionales para mejorar la experiencia en dispositivos con tamaños intermedios, como tablets.
+3. Validacion der formularios: Agregaría validación más avanzada con mensajes de error personalizados para mejorar la usabilidad.
 - ¿Qué haría de manera diferente si se le asignara más tiempo?
+1. Mejor organización del código: Refactorizaría partes del HTML y CSS para seguir principios DRY y asegurar un código más limpio y escalable.
+2. Solicitud de feedback: Solicitaría feedback a potenciales usuarios para ver como se puede mejorar el concepto.
   <br/>
   <br/>
 
