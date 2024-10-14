@@ -39,6 +39,13 @@
   padding: 50px 0;
 }
 
+#section3 h3 {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  color: #8b0000;
+  letter-spacing: 0.1rem;
+}
+
 #section3 p {
   font-size: 0.8em;
   font-weight: lighter;
