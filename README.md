@@ -52,6 +52,11 @@ Además, agregue la siguiente información a su archivo `README`:
 2. Solicitud de feedback: Solicitaría feedback a potenciales usuarios para ver como se puede mejorar el concepto.
   <br/>
   <br/>
+- En su trabajo, ¿cuál considera que fue lo más difícil de realizar?
+- ¿Qué haría de manera diferente si se le asignara más tiempo?
+La parte más desafiante fue encontrar una idea que fuera útil o interesante, ya que inicialmente me costó mucho decidir el enfoque. Finalmente, opté por un tema que despertara mi interés personal. Además, otro reto fue trabajar la experiencia de usuario: no me considero experta en este campo, por lo que encontrar la combinación adecuada de colores y tipografías que transmitieran una sensación de terror sin comprometer la usabilidad fue complicado.
+- En las entregas, detectamos una gran variedad de temáticas únicas e interesantes. ¿Podría decirnos en qué se inspiró para realizar su página web? ¿Utilizó alguna página existente como referencia?
+Me inspiré en Blog Horror https://bloghorror.com/, una página dedicada a películas y juegos de terror que estuvo un largo tiempo sin actualizarse y retomó actividad justo mientras realizaba este trabajo práctico. Mi idea fue rendirle un pequeño homenaje a ese sitio. Además, los ejemplos presentados por el profesor en clase fueron una gran referencia para definir la estructura y el estilo de mi proyecto.
 
 ## Detalles
 
