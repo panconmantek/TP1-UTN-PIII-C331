@@ -43,20 +43,27 @@ Usando la estructura estandar de un documento html, deberá crear un conjunto de
 
 Además, agregue la siguiente información a su archivo `README`:
 
-- ¿Hay alguna mejora que pueda hacer en su envío?
-1. Optimización: Podría limpiar los estilos redundantes o reutilizar más porciones de codigo.
-2. Mejoras en el diseño responsive: Aunque la web ya es responsive, haría ajustes adicionales para mejorar la experiencia en dispositivos con tamaños intermedios, como tablets.
-3. Validacion der formularios: Agregaría validación más avanzada con mensajes de error personalizados para mejorar la usabilidad.
-- ¿Qué haría de manera diferente si se le asignara más tiempo?
-1. Mejor organización del código: Refactorizaría partes del HTML y CSS para seguir principios DRY y asegurar un código más limpio y escalable.
-2. Solicitud de feedback: Solicitaría feedback a potenciales usuarios para ver como se puede mejorar el concepto.
-  <br/>
-  <br/>
-- En su trabajo, ¿cuál considera que fue lo más difícil de realizar?
-- ¿Qué haría de manera diferente si se le asignara más tiempo?
+## Trabajo Práctico
+
+Usando la estructura estándar de un documento HTML, deberá crear un conjunto de tres pantallas para crear la web solicitada.
+
+Además, agregue la siguiente información a su archivo `README`:
+
+### ¿Hay alguna mejora que pueda hacer en su envío?  
+1. **Optimización:** Podría limpiar los estilos redundantes o reutilizar más porciones de código.  
+2. **Mejoras en el diseño responsive:** Aunque la web ya es responsive, haría ajustes adicionales para mejorar la experiencia en dispositivos con tamaños intermedios, como tablets.  
+3. **Validación de formularios:** Agregaría validación más avanzada con mensajes de error personalizados para mejorar la usabilidad.
+
+### ¿Qué haría de manera diferente si se le asignara más tiempo?  
+1. **Mejor organización del código:** Refactorizaría partes del HTML y CSS para seguir principios DRY y asegurar un código más limpio y escalable.  
+2. **Solicitud de feedback:** Solicitaría feedback a potenciales usuarios para ver cómo se puede mejorar el concepto.
+
+### En su trabajo, ¿cuál considera que fue lo más difícil de realizar?  
 La parte más desafiante fue encontrar una idea que fuera útil o interesante, ya que inicialmente me costó mucho decidir el enfoque. Finalmente, opté por un tema que despertara mi interés personal. Además, otro reto fue trabajar la experiencia de usuario: no me considero experta en este campo, por lo que encontrar la combinación adecuada de colores y tipografías que transmitieran una sensación de terror sin comprometer la usabilidad fue complicado.
-- En las entregas, detectamos una gran variedad de temáticas únicas e interesantes. ¿Podría decirnos en qué se inspiró para realizar su página web? ¿Utilizó alguna página existente como referencia?
-Me inspiré en Blog Horror https://bloghorror.com/, una página dedicada a películas y juegos de terror que estuvo un largo tiempo sin actualizarse y retomó actividad justo mientras realizaba este trabajo práctico. Mi idea fue rendirle un pequeño homenaje a ese sitio. Además, los ejemplos presentados por el profesor en clase fueron una gran referencia para definir la estructura y el estilo de mi proyecto.
+
+### En las entregas, detectamos una gran variedad de temáticas únicas e interesantes. ¿Podría decirnos en qué se inspiró para realizar su página web? ¿Utilizó alguna página existente como referencia?  
+Me inspiré en [Blog Horror](https://bloghorror.com/), una página dedicada a películas y juegos de terror que estuvo un largo tiempo sin actualizarse y retomó actividad justo mientras realizaba este trabajo práctico. Mi idea fue rendirle un pequeño homenaje a ese sitio. Además, los ejemplos presentados por el profesor en clase fueron una gran referencia para definir la estructura y el estilo de mi proyecto.
+
 
 ## Detalles
 
